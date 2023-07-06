@@ -21,6 +21,9 @@ public class ProductPage
 	@FindBy(xpath="//*[text()='RESET']")private WebElement reset;
 	@FindBy(xpath="//*[@class='card wbr-product-card h-100 rounded-20']")
 	private List<WebElement> productlist;
+	
+	
+	
     @FindBy(xpath="//*[text()='AMRUT INDIAN SINGLE MALT WHISKY EXCLUSIVE EDITION']")
     private WebElement product;
     WebDriverWait wait;
