@@ -11,6 +11,11 @@ public class HomeTest extends TestNGListeners
 	@Test( priority=1)
 	public void validateTitle()
 	{ 
+
+
+
+
+		
 		String title = homepage.GetTitleOfPage();
 		test.info("fetched title of page");
 		System.out.println(title);
