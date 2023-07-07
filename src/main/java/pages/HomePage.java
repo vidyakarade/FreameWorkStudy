@@ -13,11 +13,7 @@ public class HomePage
    @FindBy(xpath="//*[text()='Single Malt']")private WebElement singleMalt;
    private WebDriver driver;
    public HomePage(WebDriver driver)
-   {
-	 
-	   
-	   
-	   
+   {	   
 	PageFactory.initElements(driver,this);
 	this.driver=driver;
    }
